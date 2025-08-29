@@ -8,10 +8,8 @@ async function onload() {
             }
         }, 50)
     })
-    for (var zWWpimsenljddczY = 0; zWWpimsenljddczY < (ModAPI.getFPS() * (new Date(Date.now()).getFullYear())); zWWpimsenljddczY++) {
-        ModAPI.displayToChat({
-            msg: ModAPI.getFPS()
-        });
-    }
+    ModAPI.displayToChat({
+        msg: ModAPI.getFPS()
+    });
 }
 onload();
